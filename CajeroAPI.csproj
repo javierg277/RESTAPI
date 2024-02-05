@@ -10,9 +10,11 @@
   <ItemGroup>
     <PackageReference Include="ADO.Net.Client" Version="1.4.4" />
     <PackageReference Include="ADO.Net.Client.Core" Version="1.4.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.1" />
     <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.21.121" />
     <PackageReference Include="Oracle.ManagedDataAccess.EntityFramework" Version="21.4.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.3.1" />
   </ItemGroup>
 
 </Project>
