@@ -1,8 +1,9 @@
-﻿using System.Reflection.Metadata.Ecma335;
+﻿using System.Net.NetworkInformation;
+using System.Reflection.Metadata.Ecma335;
 using CajeroAPI.Models;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
-using CajeroAPI.Models.Report;
+
 
 namespace CajeroAPI.Controllers
 {
@@ -10,13 +11,15 @@ namespace CajeroAPI.Controllers
     [Microsoft.AspNetCore.Mvc.Route("[controller]")]
     public class ClienteController
     {
+    
         [HttpGet]
-        [Microsoft.AspNetCore.Mvc.Route("listarnumber")]
-        public dynamic getNumber()
+        [Microsoft.AspNetCore.Mvc.Route("Get Reports")]
+        public dynamic getReports()
         {
 
-            new Report
-            return new { };
-            }
+            Report report = new Report(1,"reportes","MultaDeTrafico","niIdea","ldkslkds");
+            return report;
+        }
+
     }
 }
