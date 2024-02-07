@@ -1,12 +1,13 @@
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Configure JWT authentication
 var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
-var key = Encoding.ASCII.GetBytes(tokenOptions.Secret);
+var key = Encoding.ASCII.GetBytes(tokenOptions.SecretKey);
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
