@@ -2,25 +2,24 @@
 {
     public class Report
     {
-        private int ID;
-        private String NAME_REPORT;
-        private String DESCRIPTION;
-        private String URL_TEMPLATE;
-        private String SQL_CRITERIA;
+        private String name_report;
+        private String description;
+        private String url_template;
+        private String sql_criteria;
 
-        public Report(int iD, string nAME_REPORT, string dESCRIPTION, string uRL_TEMPLATE, string sQL_CRITERIA)
+        public Report(int id, string name_report, string description, string url_template, string sql_criteria)
         {
-            ID = iD;
-            NAME_REPORT = nAME_REPORT;
-            DESCRIPTION = dESCRIPTION;
-            URL_TEMPLATE = uRL_TEMPLATE;
-            SQL_CRITERIA = sQL_CRITERIA;
+            this.Id = id;
+            this.Name_report = name_report;
+            this.Description = description;
+            this.Url_template = url_template;
+            this.Sql_criteria = sql_criteria;
         }
 
-        public int ID1 { get => ID; set => ID = value; }
-        public string NAME_REPORT1 { get => NAME_REPORT; set => NAME_REPORT = value; }
-        public string DESCRIPTION1 { get => DESCRIPTION; set => DESCRIPTION = value; }
-        public string URL_TEMPLATE1 { get => URL_TEMPLATE; set => URL_TEMPLATE = value; }
-        public string SQL_CRITERIA1 { get => SQL_CRITERIA; set => SQL_CRITERIA = value; }
+        public int Id { get; set; }
+        public string Name_report { get => name_report; set => name_report = value; }
+        public string Description { get => description; set => description = value; }
+        public string Url_template { get => url_template; set => url_template = value; }
+        public string Sql_criteria { get => sql_criteria; set => sql_criteria = value; }
     }
 }
