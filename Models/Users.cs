@@ -34,6 +34,10 @@
             Profile_Id1 = profile_Id;
         }
 
+        public Users()
+        {
+        }
+
         public int Id { get => id; set => id = value; }
         public string Name { get => name; set => name = value; }
         public string Password { get => password; set => password = value; }

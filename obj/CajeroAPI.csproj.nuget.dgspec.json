@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\javie\\source\\repos\\CajeroAPI\\CajeroAPI\\CajeroAPI.csproj": {}
+    "C:\\Users\\franc\\OneDrive\\Escritorio\\Angula\\RESTAPI\\CajeroAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\javie\\source\\repos\\CajeroAPI\\CajeroAPI\\CajeroAPI.csproj": {
+    "C:\\Users\\franc\\OneDrive\\Escritorio\\Angula\\RESTAPI\\CajeroAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\javie\\source\\repos\\CajeroAPI\\CajeroAPI\\CajeroAPI.csproj",
+        "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Escritorio\\Angula\\RESTAPI\\CajeroAPI.csproj",
         "projectName": "CajeroAPI",
-        "projectPath": "C:\\Users\\javie\\source\\repos\\CajeroAPI\\CajeroAPI\\CajeroAPI.csproj",
-        "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\javie\\source\\repos\\CajeroAPI\\CajeroAPI\\obj\\",
+        "projectPath": "C:\\Users\\franc\\OneDrive\\Escritorio\\Angula\\RESTAPI\\CajeroAPI.csproj",
+        "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\franc\\OneDrive\\Escritorio\\Angula\\RESTAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,9 +46,39 @@
               "target": "Package",
               "version": "[1.4.5, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Oracle.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.21.121, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.130, )"
             },
             "Oracle.ManagedDataAccess.EntityFramework": {
               "target": "Package",
@@ -59,6 +87,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.3.1, )"
             }
           },
           "imports": [
